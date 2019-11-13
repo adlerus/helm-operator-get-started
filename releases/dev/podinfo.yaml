@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: stefanprodan/podinfo:dev-hdtwcel9
+    image: stefanprodan/podinfo:3.1.5
     replicaCount: 1
     hpa:
       enabled: false
